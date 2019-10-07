@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WebAPI.Core">
+      <HintPath>..\WebAPI.Core\bin\Debug\netcoreapp3.0\WebAPI.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
