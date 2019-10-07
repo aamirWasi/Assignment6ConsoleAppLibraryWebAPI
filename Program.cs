@@ -8,7 +8,7 @@ using WebAPI.Core;
 namespace Assignment6ConsoleAppLibraryWebAPI
 {
     class Program
-    {
+    {//Library management sysment for retrive data from web to console and vice versa
         static void Main(string[] args)
         {
             //Product to show from API to Console
